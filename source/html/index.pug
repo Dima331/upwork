@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+html(lang='ru')
+  - var title = "Title";
+  include common/head.pug
+  body
+    .wrapper
+      - var page = "index";
+      include common/header.pug
+      main.main
+      include common/footer.pug
+    script(src="js/main.min.js")

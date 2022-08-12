@@ -1,0 +1,29 @@
+@mixin sView {
+  @media (min-width: 320px) {
+    @content;
+  }
+}
+
+@mixin mView {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin lView {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin retina {
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    @content;
+  }
+}
+
+@mixin reset-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
