@@ -10,11 +10,11 @@ const csso = require('gulp-csso');
 const browserSync = require('browser-sync').get('Local Server');
 
 const sassGlob = require('gulp-sass-glob');
-const sass = require("gulp-sass");
+const sass = require('gulp-sass')(require('sass'));
 const gcmq = require('gulp-group-css-media-queries');
 const csscomb = require("gulp-csscomb");
-const cleanCSS = require('gulp-clean-css');
 
+const cleanCSS = require('gulp-clean-css');
 const isDev = !process.env.NODE_ENV;
 
 // Компиляция стилей проекта
