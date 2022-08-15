@@ -7,6 +7,7 @@ npm-debug.*
 Thumbs.db
 .DS_Store
 .idea
+.vs
 layouts
 build
 dist
