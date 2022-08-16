@@ -1,0 +1,32 @@
+.header {
+  background-color: $light-text-color;
+  border-bottom: 1px solid #000;
+
+  .header__container {
+    width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(200px, auto) 1fr minmax(160px, auto) minmax(160px, 200px);
+  }
+
+  .header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #000;
+  }
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #000;
+    padding: 18px 30px;
+  }
+
+  .header__user-list {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // border-right: 1px solid #000;
+  }
+}
