@@ -1,0 +1,31 @@
+.dashbord {
+  padding: 66px 0 96px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto 770px;
+
+  .dashbord__info {
+    margin-top: -22px;
+  }
+
+  .dashbord__title {
+    font-size: 110px;
+    font-weight: 400;
+    font-family: Roboto;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 25px;
+    flex: 1 1 520px;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    max-width: 380px;
+
+    &:last-of-type {
+      margin-bottom: 55px;
+    }
+  }
+}
