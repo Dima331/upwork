@@ -1,7 +1,10 @@
 .audio {
+  border-bottom: 1px solid $dark-text-color;
+
   .audio__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
   }
 
   .audio__info {
