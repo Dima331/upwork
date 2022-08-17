@@ -1,0 +1,13 @@
+section.partner
+  .partner__info
+    h2.partner__title Join thousands of students from >> leading >> institutions
+    p.partner__text Reading doesn’t have to be intimidating — let Upword turn you into a super learner!
+
+  - let count = 1;  
+  ul.partner__list
+    while count < 12
+      li.partner__item 
+      picture.partner__picture
+        source(srcset=`img/content/partner_${count}.webp` type="image/webp")
+        img(src=`img/content/partner_${count}.png` alt=`partner ${count}` width="74" height="74")
+        - count += 1;

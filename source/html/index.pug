@@ -7,5 +7,13 @@ html(lang='en')
       - var page = "index";
       include common/header.pug
       main.main
+        .container
+          h1.visually-hidden Upwork company 
+          include sections/dashbord.pug
+          include sections/information.pug
+          include sections/audio.pug
+          include sections/excerpt.pug
+          include sections/library.pug
+          include sections/partner.pug
       include common/footer.pug
     script(src="js/main.min.js")
