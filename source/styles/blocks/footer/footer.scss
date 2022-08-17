@@ -1,0 +1,41 @@
+.footer {
+  padding: 70px 0 75px 0;
+  background-color: $dark-text-color;
+  min-height: 324px;
+
+  .footer__container {
+    background-image: url('/img/star.svg');
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+  }
+
+  .footer__wrapper {
+    width: 922px;
+    display: grid;
+    grid-template-areas:
+      'social nav'
+      '. rights';
+    margin-left: auto;
+    row-gap: 129px;
+  }
+
+  .footer__social {
+    grid-area: social;
+  }
+
+  .footer__nav {
+    grid-area: nav;
+
+    .nav__list {
+      justify-content: flex-end;
+    }
+  }
+
+  .footer__rights {
+    grid-area: rights;
+
+    .rights__text {
+      text-align: right;
+    }
+  }
+}

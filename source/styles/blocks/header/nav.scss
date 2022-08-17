@@ -10,7 +10,12 @@
   }
 
   .nav__link {
+    font-family: Inter;
     font-size: 18px;
     font-weight: 800;
   }
+}
+
+.nav_color {
+  color: $light-text-color;
 }

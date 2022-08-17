@@ -1,0 +1,26 @@
+.social-list {
+  display: flex;
+  @include reset-list;
+
+  .social-list__link {
+    display: flex;
+
+    &:hover {
+      .social-list__icon {
+        transition: fill 0.3s;
+        fill: $btn-hover;
+      }
+    }
+  }
+
+  .social-list__item {
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .social-list__icon {
+    fill: $light-text-color;
+  }
+}

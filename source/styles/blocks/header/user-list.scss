@@ -1,5 +1,6 @@
 .user-list {
   @include reset-list;
+  font-family: Inter;
   font-weight: 800;
   display: flex;
   flex-wrap: wrap;
