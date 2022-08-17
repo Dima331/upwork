@@ -7,6 +7,12 @@
   font-family: Roboto;
   font-weight: 700;
   font-size: 46px;
-  margin-left: 6px;
+  margin: 0 6px;
   line-height: 1;
+}
+
+.emphasise_dark {
+  border: 1px solid $dark-text-color;
+  font-size: 49px;
+  padding: 13px 8px;
 }
