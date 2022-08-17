@@ -1,14 +1,14 @@
-.dashbord {
-  padding: 66px 0 96px;
+.dashboard {
+  padding: 66px 20px 96px;
   display: grid;
   gap: 50px;
   grid-template-columns: auto 770px;
 
-  .dashbord__info {
+  .dashboard__info {
     margin-top: -22px;
   }
 
-  .dashbord__title {
+  .dashboard__title {
     font-size: 110px;
     font-weight: 400;
     font-family: Roboto;
@@ -27,5 +27,9 @@
     &:last-of-type {
       margin-bottom: 55px;
     }
+  }
+
+  .dashboard__img {
+    object-fit: cover;
   }
 }

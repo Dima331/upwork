@@ -6,7 +6,7 @@
     width: 1440px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: minmax(205px, auto) 1fr minmax(160px, auto) minmax(130px, 158px);
+    grid-template-columns: minmax(205px, auto) 1fr minmax(160px, auto) minmax(158px, auto);
   }
 
   .header__logo {
