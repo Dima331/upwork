@@ -1,0 +1,96 @@
+.quotes {
+  background-color: $bg-quote;
+  padding: 124px 0 154px;
+}
+
+.quote__blockquote {
+  margin: 0;
+  font-size: 17px;
+  margin-bottom: 21px;
+}
+
+.quote__footer {
+  display: flex;
+  grid-template-columns: 63px auto;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.quote__rank {
+  margin: 0;
+  line-height: 1.25;
+  font-size: 13px;
+}
+
+.quote__autor {
+  font-style: normal;
+}
+
+.partner__nav {
+  display: flex;
+  justify-content: end;
+  padding-right: 21px;
+  margin-top: 7px;
+
+  .partner__right-turn,
+  .partner__left-turn {
+    border: none;
+    background-color: inherit;
+    fill: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    stroke: $dark-text-color;
+    transition: 0.3s;
+
+    &:hover {
+      stroke: $btn-color;
+    }
+  }
+
+  .partner__right-turn {
+    transform: rotate(180deg);
+    margin-left: 11px;
+  }
+}
+
+.quote {
+  position: relative;
+  overflow: hidden;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote__wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.quote__items {
+  display: flex;
+  transition: transform 0.5s ease;
+  @include reset-list;
+  margin: 0 auto;
+}
+
+.transition-none {
+  transition: none;
+}
+
+.quote__item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 73px 50px 45px 160px;
+  background-image: url('../img/quotes.svg');
+  background-repeat: no-repeat;
+  background-position: 45px 45px;
+  border: 1px solid $dark-text-color;
+  border-radius: 8px;
+  background-color: $light-text-color;
+}
+
+.quote__indicators {
+  display: none;
+}

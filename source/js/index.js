@@ -1,13 +1,7 @@
-import Modal from './modules/modal';
+import ItcSimpleSlider from './modules/slider';
 
-const modalFormElement = document.querySelector('.modal-form');
-
-if (modalFormElement) {
-  const modalForm = new Modal(modalFormElement);
-
-  contactsButtonElement.addEventListener('click', (evt) => {
-    evt.preventDefault();
-
-    modalForm.show();
-  });
-}
+const slider = new ItcSimpleSlider('.quote', {
+  loop: true,
+  autoplay: true,
+  swipe: true
+});
